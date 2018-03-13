@@ -14,4 +14,7 @@ class Index extends \think\Controller
     	$a = ['a'=>'hello','b'=>'new world'];
         var_dump($a);
     }
+    public function b(){
+        echo 'Hello ';
+    }
 }
